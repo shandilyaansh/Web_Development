@@ -4,15 +4,39 @@
 }
 .heading{
     background-color: #39f;
-    width: max-content;
-    padding: 5px;
+    width: 138px;
+    padding: 6px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 0 5px 5px 0;
-    border: 2px solid solid #39f;
     display: inline;
-    margin-top: -3px;
+    margin-top: 49px;
+    margin-left: -16px;
     position: absolute;
+    text-align: right;
+}
+.new{
+    display:inline-block;
+    margin-top: 20px;
+}
+.ribon{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 132px;
+    border: 16px solid transparent;
+    border-left-color: #39f;
+    margin-top: 50px;
+}
+.tri{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: -16px;
+    border: 8px solid white;
+    border-top-color: #39f;
+    border-right-color: #39f;
+    margin-top: 82px;
 }
 img{
     /* position: relative; */
