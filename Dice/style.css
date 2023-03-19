@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: teal;
+    font-family: cursive;
+    transition: 1s;
+}
+section{
+    border: 1px solid black;
+    display: flex;
+    width: fit-content;
+    height: 177px;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+img{
+    width:140px;
+    height: 140px;
+    border-radius: 15px;
+    transition: 1s;
+}
+span{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.player1{
+    margin: 10px 5px 10px 10px;
+    width: 140px;
+    height: 140px;
+}
+.player2{
+    margin: 10px 10px 10px 5px;
+    width: 140px;
+    height: 140px;
+}
